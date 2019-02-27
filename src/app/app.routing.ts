@@ -3,7 +3,6 @@ import {NgModule} from '@angular/core';
 import {OrderDataComponent} from './components/order-data/order-data.component';
 import {AboutComponent} from './components/about/about.component';
 import {HomeComponent} from './components/home/home.component';
-import {UserComponent} from './user/user.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
