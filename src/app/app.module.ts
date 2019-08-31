@@ -4,9 +4,10 @@ import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 import {OrderDataComponent} from './components/order-data/order-data.component';
 import {AboutComponent} from './components/about/about.component';
-import {AppRoutingModule} from './app.routing';
+import {AppRoutingModule} from './app-routing.module';
 import {HomeComponent} from './components/home/home.component';
 import {FormsModule} from '@angular/forms';
+import {UserModule} from './user/user.module';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import {FormsModule} from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    UserModule
   ],
   bootstrap: [AppComponent],
 })
